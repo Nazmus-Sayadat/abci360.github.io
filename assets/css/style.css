@@ -4,9 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none !important;
+    /* text-decoration: none !important; */
     font-family: 'Source Sans Pro', sans-serif;
     
+}
+
+a{
+  text-decoration: none !important;
 }
 
 *::placeholder:not(.university-search){
@@ -221,22 +225,6 @@ main .hero .search-btn:hover, main .hero .search-btn:focus, main .hero .search-b
   box-shadow: none !important;
 }
 
-main .hero .study-abroad{
-  border: 3px solid white;
-  border-radius: 8px;
-  color: white;
-  background-color: rgba(237, 28, 36, 0.1);
-  transition: 0.3s;
-}
-
-main .hero .study-abroad:hover{
-  background-color: rgb(237, 28, 36);
-}
-
-main .hero .study-abroad a{
-  color: white;
-}
-
 main .hero .course-card{
   width: 50%;
   height: 33%;
@@ -262,7 +250,6 @@ main .hero .course-card a{
 main .university-list{
   transform: translateY(-180px);
 }
-
 
 main .university-list .card-canada{
   background-image: url(../image/canada-bg.jpg);
@@ -293,7 +280,7 @@ main .university-list .university-list-card{
 }
 
 main .university-list .university-list-card:hover{
-  background-size: 150%;
+  background-size: 500px;
 }
 
 main .university-list .university-list-card .card-body{
@@ -391,9 +378,20 @@ footer .footer-content a:not(.reviews){
       z-index: -100;
     }
 
+        
+    main .hero .hero-heading{
+      position: absolute;
+      top: 5%;
+      left: 50%;
+      transform: translate(-50%, -5%);
+    }
+    
+    main .hero .row{
+      transform: translateY(180px);
+    }
                     
     main .hero, main .hero::before{
-      height: 260vh;
+      height: 230vh;
       border-bottom-left-radius: 50% 5%;
       border-bottom-right-radius: 50% 5%;
     }
@@ -417,8 +415,18 @@ footer .footer-content a:not(.reviews){
       position: unset;
       z-index: unset;
     }
-
-                
+    
+    main .hero .hero-heading{
+      position: absolute;
+      top: 5%;
+      left: 50%;
+      transform: translate(-50%, -5%);
+    }
+      
+    main .hero .row{
+      transform: translateY(190px);
+    }
+    
     main .hero, main .hero::before{
       height: 230vh;
       border-bottom-left-radius: 50% 5%;
@@ -426,11 +434,11 @@ footer .footer-content a:not(.reviews){
     }
 
     main .display-1{
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
     
     main .display-6{
-      font-size: 1.8rem;
+      font-size: 1rem;
     }
   }
   @media (min-width: 768px) {
@@ -447,19 +455,28 @@ footer .footer-content a:not(.reviews){
     
             
     main .hero, main .hero::before{
-      height: 180vh;
+      height: 230vh;
       border-bottom-left-radius: 50% 10%;
       border-bottom-right-radius: 50% 10%;
     }
 
+    main .hero .hero-heading{
+      position: absolute;
+      top: 5%;
+      left: 50%;
+      transform: translate(-50%, -5%);
+    }
 
+    main .hero .row{
+      transform: translateY(250px);
+    }
 
     main .display-1{
-      font-size: 4rem;
+      font-size: 3rem;
     }
         
     main .display-6{
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
   }
   @media (min-width: 992px) {
@@ -474,19 +491,30 @@ footer .footer-content a:not(.reviews){
       z-index: unset;
     }
     
+    
+    main .hero .hero-heading{
+      position: absolute;
+      top: 8%;
+      left: 50%;
+      transform: translate(-50%, -8%);
+    }
+    
+    main .hero .row{
+      transform: translateY(280px);
+    }
         
     main .hero, main .hero::before{
-      height: 130vh;
+      height: 170vh;
       border-bottom-left-radius: 50% 20%;
       border-bottom-right-radius: 50% 20%;
     }
 
     main .display-1{
-      font-size: 5rem;
+      font-size: 3rem;
     }
             
     main .display-6{
-      font-size: 2.5rem;
+      font-size: 1.5rem;
     }
   }
   @media (min-width: 1200px) {
@@ -501,19 +529,30 @@ footer .footer-content a:not(.reviews){
       z-index: unset;
     }
     
+    
+    main .hero .hero-heading{
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%, -10%);
+    }
+    
+    main .hero .row{
+      transform: translateY(300px);
+    }
         
     main .hero, main .hero::before{
-      height: 125vh;
+      height: 170vh;
       border-bottom-left-radius: 50% 20%;
       border-bottom-right-radius: 50% 20%;
     }
 
     main .display-1{
-      font-size: 5rem;
+      font-size: 4rem;
     }
                 
     main .display-6{
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
   }
   @media (min-width: 1400px) {
@@ -528,6 +567,18 @@ footer .footer-content a:not(.reviews){
       z-index: unset;
     }
     
+    
+    main .hero .hero-heading{
+      position: absolute;
+      top: 15%;
+      left: 50%;
+      transform: translate(-50%, -15%);
+    }
+
+    main .hero .row{
+      transform: translateY(400px);
+    }
+
     main .hero, main .hero::before{
       height: 125vh;
       border-bottom-left-radius: 50% 20%;

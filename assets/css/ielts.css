@@ -1,0 +1,286 @@
+
+*::placeholder{
+    color: white !important;
+    opacity: 1;
+  }
+
+
+/* Header & Navbar Start */
+
+
+header form .form-control:focus, header form .form-control:active{
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    box-shadow: none;
+}
+
+header .nav-item:not(.apply){
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+  }
+  
+header .nav-item:not(.apply):hover, header .nav-item:not(.apply):focus, header .nav-item:not(.apply):active{
+    border-bottom: 2px solid white;
+}
+
+header .apply .btn-primary{
+    background-color: white;
+    border: 2px solid white;
+    color: var(--clr-primary) !important;
+}
+
+header .apply .btn-primary:hover{
+    background-color: var(--clr-primary);
+    border: 2px solid white;
+    color: white !important;
+}
+
+
+/* Main Start */
+
+
+main{
+    position: relative;
+}
+
+main .pricing-heading{
+    position: absolute;
+    width: 100%;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -12%);
+}
+
+main .pricing-heading p{
+    font-family: var(--font-josefin);
+}
+
+main .pricing-bg{
+    position: relative;
+    height: 65vh;
+    background-color: var(--clr-primary);
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+    z-index: -5;
+}
+
+main .pricing-panel .container{
+    transform: translateY(-180px);
+}
+
+main .pricing-panel .container .card{
+    border: none;
+    box-shadow: -4px 4px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+main .pricing-panel .container .pricing-card-two .card-head{
+    background-color: rgb(84, 14, 14) !important;
+}
+
+main .pricing-panel .container .btn-primary{
+    background-color: var(--clr-primary) !important;
+    border: 2px solid var(--clr-primary);
+}
+
+main .pricing-panel .container .btn-primary:hover{
+    background-color: white !important;
+    border: 2px solid var(--clr-primary);
+    color: var(--clr-primary) !important;
+}
+
+main .pricing-panel .container .pricing-panal-icon{
+    color: var(--clr-primary) !important;
+}
+
+main .registration{
+    transform: translateY(-80px);
+}
+
+main .registration .call, main .registration .online{
+    background-color: black;
+}
+
+main .registration .call:hover, main .registration .online:hover{
+    background-color: rgb(84, 14, 14);
+}
+
+
+main .registration .container .btn-primary{
+    background-color: var(--clr-primary) !important;
+    border: 2px solid var(--clr-primary);
+}
+
+main .registration .container .btn-primary:hover{
+    background-color: white !important;
+    border: 2px solid var(--clr-primary);
+    color: var(--clr-primary) !important;
+}
+
+
+/* Footer Start */
+
+
+footer{
+    transform: translateY(15px);
+}
+
+
+/* Custom Media Query */
+
+@media (min-width: 180px) {
+
+    main .pricing-heading{
+        position: absolute;
+        width: 100%;
+        top: 3%;
+        left: 50%;
+        transform: translate(-50%, -3%);
+    }
+        
+    main .pricing-heading .display-1{
+        font-size: 2rem;
+    }
+    
+    main .pricing-heading .display-6{
+        font-size: 1.2rem;
+    }
+    
+    main .pricing-panel .container{
+        transform: translateY(-120px);
+    }
+    
+    main .pricing-panel .pricing-card-container{
+        margin-top: 0.5rem !important;
+    }
+}
+@media (min-width: 576px) {
+
+    main .pricing-heading{
+        position: absolute;
+        width: 100%;
+        top: 4%;
+        left: 50%;
+        transform: translate(-50%, -4%);
+    }
+        
+    main .pricing-heading .display-1{
+        font-size: 2.2rem;
+    }
+    
+    main .pricing-heading .display-6{
+        font-size: 1.2rem;
+    }
+    
+    main .pricing-panel .container{
+        transform: translateY(-150px);
+    }
+    
+    main .pricing-panel .pricing-card-container{
+        margin-top: unset;
+    }
+}
+@media (min-width: 768px) {
+
+    main .pricing-heading{
+        position: absolute;
+        width: 100%;
+        top: 6%;
+        left: 50%;
+        transform: translate(-50%, -6%);
+    }
+        
+    main .pricing-heading .display-1{
+        font-size: 3rem;
+    }
+    
+    main .pricing-heading .display-6{
+        font-size: 1.5rem;
+    }
+    
+    main .pricing-panel .container{
+        transform: translateY(-150px);
+    }
+    
+    main .pricing-panel .pricing-card-container{
+        margin-top: unset;
+    }
+}
+@media (min-width: 992px) {
+
+    main .pricing-heading{
+        position: absolute;
+        width: 100%;
+        top: 6%;
+        left: 50%;
+        transform: translate(-50%, -6%);
+    }
+        
+    main .pricing-heading .display-1{
+        font-size: 3rem;
+    }
+    
+    main .pricing-heading .display-6{
+        font-size: 1.5rem;
+    }
+    
+    main .pricing-panel .container{
+        transform: translateY(-180px);
+    }
+    
+    main .pricing-panel .pricing-card-container{
+        margin-top: unset;
+    }
+}
+@media (min-width: 1200px) {
+
+    main .pricing-heading{
+        position: absolute;
+        width: 100%;
+        top: 8%;
+        left: 50%;
+        transform: translate(-50%, -8%);
+    }
+        
+    main .pricing-heading .display-1{
+        font-size: 4rem;
+    }
+    
+    main .pricing-heading .display-6{
+        font-size: 1.5rem;
+    }
+    
+    main .pricing-panel .container{
+        transform: translateY(-180px);
+    }
+
+    main .pricing-panel .pricing-card-container{
+        margin-top: unset;
+    }
+}
+@media (min-width: 1400px) {
+
+    main .pricing-heading{
+        position: absolute;
+        width: 100%;
+        top: 12%;
+        left: 50%;
+        transform: translate(-50%, -12%);
+    }
+    
+    main .pricing-heading .display-1{
+        font-size: 5rem;
+    }
+    
+    main .pricing-heading .display-6{
+        font-size: 2rem;
+    }
+
+    main .pricing-panel .container{
+        transform: translateY(-180px);
+    }
+
+    main .pricing-panel .pricing-card-container{
+        margin-top: unset;
+    }
+}
