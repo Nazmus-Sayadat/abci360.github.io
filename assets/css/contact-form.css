@@ -1,0 +1,16 @@
+
+
+/* Navbar */
+
+#navbar{
+    background-color: transparent;
+    position: fixed;
+}
+
+.contact1{
+    background: linear-gradient(330deg, #FF0108 30%, #000000 100%);
+}
+
+.contact1-form-btn:hover{
+    background-color: var(--clr-primary);
+}
