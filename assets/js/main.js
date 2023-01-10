@@ -2,7 +2,7 @@
 function changeBg(){
   var navbar = document.getElementById('navbar');
   var scrollValue = window.scrollY;
-  if(scrollValue < 100){
+  if(scrollValue < 60){
     navbar.classList.remove('navBgColor');
   } else{
     navbar.classList.add('navBgColor');
